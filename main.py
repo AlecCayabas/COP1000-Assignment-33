@@ -9,18 +9,14 @@ MAX_MONTH = 12
 MIN_DAY = 1
 MAX_DAY = 31
 
-year = None
-month = None
-day = None
+year = input("Year: ")
+month = input("Month: ")
+day = input("Day: ")
 
 # Get the year, then the month, then the day
 # housekeeping()
 
 # Check to be sure date is valid
-
-year = input("Year: ")
-month = input("Month: ")
-day = input ('Day: ')
 
 if int(year) <= MIN_YEAR: # invalid year
     validDate = False
