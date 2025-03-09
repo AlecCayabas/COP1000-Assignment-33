@@ -18,6 +18,10 @@ day = None
 
 # Check to be sure date is valid
 
+year = input("Year: ")
+month = input("Month: ")
+day = input ('Day: ')
+
 if int(year) <= MIN_YEAR: # invalid year
     validDate = False
 elif int(month) < MIN_MONTH or int(month) > MAX_MONTH: # invalid month
@@ -29,6 +33,6 @@ elif int(day) < MIN_DAY or int(day) > MAX_DAY: # invalid day
 
 # endOfJob()
 if validDate == True:
-    # Output statement
+    print ('month/day/year is a valid date. ')
 else:
-    # Output statement
+    print ('month/day/year is invalid date. ')
