@@ -29,6 +29,6 @@ elif int(day) < MIN_DAY or int(day) > MAX_DAY: # invalid day
 
 # endOfJob()
 if validDate == True:
-    print ('month/day/year is a valid date. ')
+    print ('{}/{}/{} is a valid date. ' .format(month,day,year))
 else:
-    print ('month/day/year is invalid date. ')
+    print ('{}/{}/{} is invalid date. ' .format(month,day,year))
