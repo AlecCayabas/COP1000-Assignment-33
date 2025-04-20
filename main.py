@@ -26,6 +26,8 @@ elif int(day) < MIN_DAY or int(day) > MAX_DAY: # invalid day
     validDate = False
 elif int(month) == 2 and int(day) > 29:
     validDate = False
+elif int(month) in (4, 6, 9, 11) and int(day) > 30:
+    validDate = False
 
 # Test to see if date is valid and output date and whether it is valid or not
 
